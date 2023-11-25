@@ -1,0 +1,15 @@
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\bin\Debug\net6.0\FIRE-Calculator.exe
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\bin\Debug\net6.0\FIRE-Calculator.deps.json
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\bin\Debug\net6.0\FIRE-Calculator.runtimeconfig.json
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\bin\Debug\net6.0\FIRE-Calculator.dll
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\bin\Debug\net6.0\FIRE-Calculator.pdb
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.csproj.AssemblyReference.cache
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.AssemblyInfoInputs.cache
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.AssemblyInfo.cs
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.csproj.CoreCompileInputs.cache
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.dll
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\refint\FIRE-Calculator.dll
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.pdb
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\FIRE-Calculator.genruntimeconfig.cache
+C:\Users\zc139\source\repos\FIRE-Calculator\FIRE-Calculator\obj\Debug\net6.0\ref\FIRE-Calculator.dll
