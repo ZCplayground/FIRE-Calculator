@@ -4,9 +4,6 @@ public static class Solution
 {
     public static long HowMuchFIREMoneyDoINeed(long yearlyExpense)
     {
-        /* According to FIRE, to quit your day job, you need to have 25 times your annual expenses in investments, where you only withdraw 4% of the total each year. 
-         * While you take out your living expenses, the investments are also replenishing that money through compound interest or growing in value or dividends */
-
         long FIREMoney = yearlyExpense * 25;
 
         return FIREMoney;
@@ -67,7 +64,12 @@ class Program
 {
     static void Main()
     {
-        Console.Write($"Welcome to FIRE Cauculator\n" + "Please input your monthly expense: ");
+
+        Console.Write($"Welcome to FIRE Cauculator!\n");
+        Console.WriteLine("According to FIRE, to quit your day job, you need to have 25 times your annual expenses in investments, where you only withdraw 4% of the total each year. \n" +
+            "While you take out your living expenses, the investments are also replenishing that money through compound interest or growing in value or dividends. \n");
+
+        Console.Write("Please input your monthly expense: ");
         int monthlyExpense;
         monthlyExpense = int.Parse(Console.ReadLine());
         Console.WriteLine("So your annual expense is {0}.", monthlyExpense * 12);
@@ -81,25 +83,27 @@ class Program
         var yearsToLive = Solution.HowManyYearsMySavingRunsOut(saving, monthlyExpense * 12, true);
         if (yearsToLive == long.MaxValue)
         {
-            Console.WriteLine("You are already FIRE!!");
+            Console.WriteLine("You are already FIRE! Congratulations!\n");
         }
         else
         {
             Console.WriteLine("Current saving will run out in {0} years", yearsToLive);
         }
 
-        // another way to FIRE is lower your spend
+
         if (yearsToLive != long.MaxValue)
         {
+            Console.WriteLine("You are not FIRE right now. Except for continuing the current job and make more money, another way to FIRE is try to lower your spend.\n" +
+                "Let's find out how much money you should spend.\n");
             Console.Write("What is your age: ");
             int age = int.Parse(Console.ReadLine());
             Console.Write("What is your life expectency: ");
             int lifeExpectency = int.Parse(Console.ReadLine());
             Console.WriteLine("So, you have {0} more years to live. ", lifeExpectency - age);
             var yearlySpend = Solution.HowMuchMoneyICanSpendPerYear(saving, age, lifeExpectency);
-            Console.Write("Given your age, saving, and life expectency, you can spend: \n" +
+            Console.Write("Given your age, saving, and life expectency, you can spend " +
                 "{0} per year, i.e {1} per month,\n" +
-                "so that at the end of your life, your saving will run out.", yearlySpend, Math.Round(yearlySpend / 12, 2));
+                "so that at the end of your life, your saving will run out.\n", yearlySpend, Math.Round(yearlySpend / 12, 2));
         }
     }
 }
